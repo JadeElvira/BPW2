@@ -21,7 +21,7 @@ public class Lightingspawner : MonoBehaviour
         if (particleEffectPrefab != null && spawnPoint != null)
         {
             GameObject vfxInstance = Instantiate(particleEffectPrefab, spawnPoint.position, Quaternion.identity);
-            Destroy(vfxInstance, vfxInstance.GetComponent<ParticleSystem>().main.duration);
+            //Destroy(vfxInstance, vfxInstance.GetComponent<ParticleSystem>().main.duration);
         }
         else
         {
