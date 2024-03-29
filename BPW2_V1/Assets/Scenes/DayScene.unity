@@ -545,6 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Regen: {fileID: 136877098311423956}
   RegenObject: {fileID: 442393089}
+  LightningObject: {fileID: 1803368672}
 --- !u!65 &40790863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16300,10 +16301,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2621450417442771964, guid: 3586bcffd58e7524094d19a1e338cb25,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6409693747269048192, guid: 3586bcffd58e7524094d19a1e338cb25,
         type: 3}
       propertyPath: m_Name
       value: Lightning
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409693747269048192, guid: 3586bcffd58e7524094d19a1e338cb25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23408,6 +23419,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 574047952}
   m_LocalEulerAnglesHint: {x: -0.686, y: 7.315, z: 8.382}
+--- !u!1 &1803368672 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6409693747269048192, guid: 3586bcffd58e7524094d19a1e338cb25,
+    type: 3}
+  m_PrefabInstance: {fileID: 1247940559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1804795783
 GameObject:
   m_ObjectHideFlags: 0

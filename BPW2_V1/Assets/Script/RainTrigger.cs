@@ -6,6 +6,7 @@ public class RainTrigger : MonoBehaviour
 {
     public AudioSource Regen;
     public GameObject RegenObject;
+    public GameObject LightningObject;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,10 @@ public class RainTrigger : MonoBehaviour
             Regen.Play();
             RegenObject.SetActive(true);
             RegenObject.GetComponent<ParticleSystem>().Play();
+            if (LightningObject != null) // Ensure objectToEnable is not null
+            {
+                LightningObject.SetActive(true); // Enable the provided GameObject
+            }
         }
     }
 
