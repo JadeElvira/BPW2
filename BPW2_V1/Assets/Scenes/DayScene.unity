@@ -3290,7 +3290,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.49
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -9003,8 +9003,9 @@ Animation:
   m_GameObject: {fileID: 491512941}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
+  m_Animation: {fileID: 7400000, guid: 9a0fbd365299883479d5d32c0e07d08f, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 9a0fbd365299883479d5d32c0e07d08f, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
