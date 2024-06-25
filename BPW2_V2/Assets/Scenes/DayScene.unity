@@ -525,7 +525,6 @@ GameObject:
   - component: {fileID: 40790865}
   - component: {fileID: 40790866}
   - component: {fileID: 40790867}
-  - component: {fileID: 40790868}
   - component: {fileID: 40790869}
   m_Layer: 0
   m_Name: Box
@@ -607,7 +606,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40790861}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f614832b816cd44c87a1e5c4362c934, type: 3}
   m_Name: 
@@ -631,23 +630,6 @@ MonoBehaviour:
   volume1: {fileID: 1005514913}
   volume2: {fileID: 1588412619}
   blendDuration: 1
---- !u!114 &40790868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40790861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfaa979220662b545a3bc598c00e9640, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newMaterial: {fileID: 2100000, guid: d71c6078ba6d4ba409fb064c1e8fd4fb, type: 2}
-  directionalLight: {fileID: 410087040}
-  intensity: 1
-  color: {r: 1, g: 1, b: 1, a: 1}
-  transitionDuration: 2
 --- !u!114 &40790869
 MonoBehaviour:
   m_ObjectHideFlags: 0
